@@ -1,5 +1,5 @@
 from PyPDF2 import PdfFileMerger
-pdfs = ['exp-1.pdf','exp-5.pdf', 'exp-6.pdf', 'exp-7.pdf', 'exp-8_9.pdf','exp-10.pdf']
+pdfs = ['merge\exp-1.pdf','merge\exp-5.pdf', 'merge\exp-6.pdf', 'merge\exp-7.pdf', 'merge\exp-8_9.pdf','merge\exp-10.pdf']
 
 merger = PdfFileMerger(strict= False)
 
